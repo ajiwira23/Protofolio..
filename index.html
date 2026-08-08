@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Aji Wira Nugroho — Portfolio</title>
+<meta name="description" content="Portfolio profesional Aji Wira Nugroho — eksplorasi teknologi, kreativitas, project digital, skills, dan perjalanan profesional.">
+<meta name="keywords" content="Aji Wira Nugroho, portfolio, web developer, digital, creative">
+<meta name="author" content="Aji Wira Nugroho">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Aji Wira Nugroho — Portfolio">
+<meta property="og:description" content="Creative Mind. Digital Explorer. Future Builder.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/profile.jpg">
+
+<link rel="icon" type="image/png" href="assets/favicon.png">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Aji Wira Nugroho",
+  "url": "",
+  "email": "mailto:ajiiwra@gmail.com",
+  "sameAs": [
+    "https://www.instagram.com/wirak_/",
+    "https://id.linkedin.com/in/aji-wira-nugroho-730523330"
+  ],
+  "alumniOf": "SMK Muhammadiyah 2 Wates"
+}
+</script>
+</head>
+<body>
+
+<!-- ============ LOADING SCREEN ============ -->
+<div id="loader" class="loader" aria-hidden="true">
+  <div class="loader-mark">
+    <span class="loader-initials">AWN</span>
+    <span class="loader-fullname">AJI WIRA NUGROHO</span>
+  </div>
+</div>
+
+<!-- ============ CUSTOM CURSOR ============ -->
+<div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+<div class="cursor-ring" id="cursorRing" aria-hidden="true"></div>
+
+<!-- ============ SCROLL PROGRESS ============ -->
+<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+<!-- ============ SKIP LINK ============ -->
+<a href="#main" class="skip-link">Lewati ke konten utama</a>
+
+<!-- ============ NAVBAR ============ -->
+<header class="navbar" id="navbar">
+  <div class="navbar-inner">
+    <a href="#home" class="navbar-logo" data-nav-link>AWN</a>
+
+    <nav class="navbar-links" id="navLinks" aria-label="Navigasi utama">
+      <a href="#home" data-nav-link class="nav-link active">Home</a>
+      <a href="#about" data-nav-link class="nav-link">About</a>
+      <a href="#process" data-nav-link class="nav-link">Process</a>
+      <a href="#skills" data-nav-link class="nav-link">Skills</a>
+      <a href="#projects" data-nav-link class="nav-link">Projects</a>
+      <a href="#contact" data-nav-link class="nav-link">Contact</a>
+    </nav>
+
+    <button class="hamburger" id="hamburger" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#home" data-nav-link class="mobile-link">Home</a>
+    <a href="#about" data-nav-link class="mobile-link">About</a>
+    <a href="#process" data-nav-link class="mobile-link">Process</a>
+    <a href="#skills" data-nav-link class="mobile-link">Skills</a>
+    <a href="#projects" data-nav-link class="mobile-link">Projects</a>
+    <a href="#contact" data-nav-link class="mobile-link">Contact</a>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="grid-overlay"></div>
+      <div class="orb orb-1" data-parallax="0.15"></div>
+      <div class="orb orb-2" data-parallax="0.3"></div>
+      <div class="orb orb-3" data-parallax="0.08"></div>
+      <div class="noise"></div>
+    </div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal-up">Portfolio — 2026</p>
+      <h1 class="hero-name">
+        <span class="reveal-line"><span class="reveal-inner">AJI WIRA</span></span>
+        <span class="reveal-line"><span class="reveal-inner">NUGROHO</span></span>
+      </h1>
+      <p class="hero-headline reveal-up" data-delay="1">Creative Mind. Digital Explorer. Future Builder.</p>
+      <p class="hero-sub reveal-up" data-delay="2">Membangun pengalaman, mengeksplorasi teknologi, dan menciptakan sesuatu yang memiliki nilai.</p>
+
+      <div class="hero-actions reveal-up" data-delay="3">
+        <a href="#projects" class="btn btn-primary" data-nav-link>Explore My Work</a>
+        <a href="#contact" class="btn btn-outline" data-nav-link>Let's Connect</a>
+      </div>
+
+      <div class="hero-social reveal-up" data-delay="4">
+        <a href="https://www.instagram.com/wirak_/" target="_blank" rel="noopener noreferrer" aria-label="Instagram Aji Wira Nugroho" class="social-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1"/></svg>
+        </a>
+        <a href="https://id.linkedin.com/in/aji-wira-nugroho-730523330" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Aji Wira Nugroho" class="social-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 4h4v16H4z"/><path d="M4 4l4 0"/><circle cx="6" cy="4" r="0"/><path d="M12 10v10"/><path d="M12 10c0-2.5 2-4 4-4s4 1.5 4 4v10h-4v-8c0-1-.5-2-2-2s-2 1-2 2v8h-4V10z"/><circle cx="6" cy="4.6" r="1.6"/></svg>
+        </a>
+        <a href="mailto:ajiiwra@gmail.com" aria-label="Kirim email ke Aji Wira Nugroho" class="social-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="M3 6.5l9 6 9-6"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <button class="scroll-indicator" id="scrollIndicator" aria-label="Gulir untuk menjelajahi">
+      <span>Scroll to explore</span>
+      <span class="scroll-arrow">↓</span>
+    </button>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about" id="about">
+    <div class="section-inner about-grid">
+      <div class="about-text">
+        <p class="eyebrow reveal-up">About Me</p>
+        <h2 class="section-title reveal-up">Mengenal Lebih Dekat</h2>
+        <p class="about-body reveal-up" data-delay="1">
+          Saya adalah pribadi yang memiliki ketertarikan terhadap teknologi, kreativitas, dan pengembangan berbagai proyek digital.
+          Saya senang mempelajari hal baru, mengeksplorasi ide, serta mengubah konsep menjadi sesuatu yang dapat digunakan dan memiliki nilai.
+        </p>
+
+        <div class="about-edu reveal-up" data-delay="2">
+          <div class="edu-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8l10-5 10 5-10 5-10-5z"/><path d="M6 10.5V16c0 1.5 3 3 6 3s6-1.5 6-3v-5.5"/><path d="M22 8v6"/></svg>
+          </div>
+          <div class="edu-text">
+            <h3>SMK Muhammadiyah 2 Wates</h3>
+            <p>Teknik Kendaraan Ringan Otomotif · Lulus 2023</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-visual reveal-up" data-delay="2">
+        <div class="profile-card" id="profileCard">
+          <div class="profile-glow" aria-hidden="true"></div>
+          <div class="profile-avatar">
+            <img src="profile.jpg" alt="Foto Aji Wira Nugroho" loading="lazy">
+          </div>
+          <p class="profile-name">Aji Wira Nugroho</p>
+          <p class="profile-role">Creative Mind · Digital Explorer</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CREATIVE PROCESS ============ -->
+  <section class="process" id="process">
+    <div class="section-inner">
+      <p class="eyebrow reveal-up center">My Creative Process</p>
+      <h2 class="section-title reveal-up center">From Ideas to Digital Experiences</h2>
+
+      <div class="process-track" id="processTrack">
+        <div class="process-line" aria-hidden="true">
+          <div class="process-line-fill" id="processLineFill"></div>
+        </div>
+
+        <div class="process-card reveal-up" data-delay="0">
+          <div class="process-number">01</div>
+          <div class="process-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+          </div>
+          <h3>Discover</h3>
+          <p class="process-tag">Explore &amp; Understand</p>
+          <p class="process-desc">Mulai dengan memahami masalah, kebutuhan, dan tujuan sebuah project.</p>
+        </div>
+
+        <div class="process-card reveal-up" data-delay="1">
+          <div class="process-number">02</div>
+          <div class="process-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2l1.8 4.6L18 8l-4.2 1.4L12 14l-1.8-4.6L6 8l4.2-1.4L12 2z"/><path d="M19 15l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8.8-2z"/></svg>
+          </div>
+          <h3>Create</h3>
+          <p class="process-tag">Turn Ideas Into Concepts</p>
+          <p class="process-desc">Mengembangkan ide menjadi konsep visual, struktur, dan pengalaman yang jelas.</p>
+        </div>
+
+        <div class="process-card reveal-up" data-delay="2">
+          <div class="process-number">03</div>
+          <div class="process-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M13 2L4 14h6l-1 8 9-12h-6l1-8z"/></svg>
+          </div>
+          <h3>Build</h3>
+          <p class="process-tag">Develop &amp; Experiment</p>
+          <p class="process-desc">Mengubah konsep menjadi sesuatu yang nyata dengan memanfaatkan teknologi dan kreativitas.</p>
+        </div>
+
+        <div class="process-card reveal-up" data-delay="3">
+          <div class="process-number">04</div>
+          <div class="process-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 19V9M5 9l-3 3M5 9l3 3"/><path d="M12 19V5M12 5l-3 3M12 5l3 3"/><path d="M19 19v-6M19 13l-3 3M19 13l3 3"/></svg>
+          </div>
+          <h3>Evolve</h3>
+          <p class="process-tag">Improve &amp; Learn</p>
+          <p class="process-desc">Melakukan evaluasi, mencoba pendekatan baru, dan terus mengembangkan hasil yang telah dibuat.</p>
+        </div>
+      </div>
+
+      <p class="process-quote reveal-up center">"Ideas become meaningful when you build them."</p>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="skills" id="skills">
+    <div class="section-inner">
+      <p class="eyebrow reveal-up center">Skills &amp; Capabilities</p>
+      <h2 class="section-title reveal-up center">Apa yang Saya Kuasai</h2>
+
+      <div class="skills-filter reveal-up center" id="skillsFilter" role="tablist" aria-label="Filter kategori skill">
+        <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All</button>
+        <button class="filter-btn" data-filter="digital" role="tab" aria-selected="false">Digital</button>
+        <button class="filter-btn" data-filter="professional" role="tab" aria-selected="false">Professional</button>
+        <button class="filter-btn" data-filter="operational" role="tab" aria-selected="false">Operational</button>
+      </div>
+
+      <div class="skills-grid" id="skillsGrid">
+        <!-- DIGITAL -->
+        <div class="skill-card" data-category="digital"><span class="skill-badge">Digital</span><h4>Microsoft Office</h4></div>
+        <div class="skill-card" data-category="digital"><span class="skill-badge">Digital</span><h4>Canva</h4></div>
+        <div class="skill-card" data-category="digital"><span class="skill-badge">Digital</span><h4>Basic Web Development</h4></div>
+        <div class="skill-card" data-category="digital"><span class="skill-badge">Digital</span><h4>Digital Content</h4></div>
+        <div class="skill-card" data-category="digital"><span class="skill-badge">Digital</span><h4>Website Development</h4></div>
+
+        <!-- PROFESSIONAL -->
+        <div class="skill-card" data-category="professional"><span class="skill-badge">Professional</span><h4>Time Management</h4></div>
+        <div class="skill-card" data-category="professional"><span class="skill-badge">Professional</span><h4>Communication</h4></div>
+        <div class="skill-card" data-category="professional"><span class="skill-badge">Professional</span><h4>Teamwork</h4></div>
+        <div class="skill-card" data-category="professional"><span class="skill-badge">Professional</span><h4>Problem Solving</h4></div>
+        <div class="skill-card" data-category="professional"><span class="skill-badge">Professional</span><h4>Attention to Detail</h4></div>
+
+        <!-- OPERATIONAL -->
+        <div class="skill-card" data-category="operational"><span class="skill-badge">Operational</span><h4>Inventory Management</h4></div>
+        <div class="skill-card" data-category="operational"><span class="skill-badge">Operational</span><h4>Data Recording</h4></div>
+        <div class="skill-card" data-category="operational"><span class="skill-badge">Operational</span><h4>Product Organization</h4></div>
+        <div class="skill-card" data-category="operational"><span class="skill-badge">Operational</span><h4>Customer Service</h4></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="projects" id="projects">
+    <div class="section-inner">
+      <p class="eyebrow reveal-up center">Selected Projects</p>
+      <h2 class="section-title reveal-up center">A Collection of Ideas, Experiments, and Digital Experiences</h2>
+
+      <div class="projects-filter reveal-up center" id="projectsFilter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="design">Design</button>
+        <button class="filter-btn" data-filter="digital">Digital</button>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid">
+
+        <article class="project-card reveal-up" data-category="web"
+          data-title="E-Commerce Website"
+          data-desc="Website toko online dengan katalog produk, cart, checkout, dan payment gateway."
+          data-features="Katalog produk|Keranjang belanja|Proses checkout|Integrasi payment gateway"
+          data-tech="HTML, CSS, JavaScript"
+          data-link="#" data-code="#">
+          <div class="project-media proj-1"><span class="project-monogram">01</span></div>
+          <div class="project-info">
+            <h3>E-Commerce Website</h3>
+            <p>Website toko online dengan katalog produk, cart, checkout, dan payment gateway.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <div class="project-links">
+              <a href="#" class="project-link" data-project-open>View Project</a>
+              <a href="#" class="project-link ghost">Source Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal-up" data-category="web"
+          data-title="Food Ordering Website"
+          data-desc="Website pemesanan makanan dengan menu, order system, dan payment integration."
+          data-features="Daftar menu interaktif|Sistem pemesanan|Integrasi pembayaran|Tampilan responsive"
+          data-tech="HTML, CSS, JavaScript"
+          data-link="#" data-code="#">
+          <div class="project-media proj-2"><span class="project-monogram">02</span></div>
+          <div class="project-info">
+            <h3>Food Ordering Website</h3>
+            <p>Website pemesanan makanan dengan menu, order system, dan payment integration.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <div class="project-links">
+              <a href="#" class="project-link" data-project-open>View Project</a>
+              <a href="#" class="project-link ghost">Source Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal-up" data-category="design"
+          data-title="Online Invitation"
+          data-desc="Website undangan digital dengan desain responsive dan interaktif."
+          data-features="Desain digital interaktif|Responsive di semua perangkat|Animasi halus|Mudah dibagikan"
+          data-tech="HTML, CSS, JavaScript"
+          data-link="#" data-code="#">
+          <div class="project-media proj-3"><span class="project-monogram">03</span></div>
+          <div class="project-info">
+            <h3>Online Invitation</h3>
+            <p>Website undangan digital dengan desain responsive dan interaktif.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <div class="project-links">
+              <a href="#" class="project-link" data-project-open>View Project</a>
+              <a href="#" class="project-link ghost">Source Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal-up" data-category="web"
+          data-title="Rental Website"
+          data-desc="Website layanan rental kendaraan dengan informasi dan sistem booking."
+          data-features="Informasi kendaraan|Sistem booking|Tampilan katalog|Responsive design"
+          data-tech="HTML, CSS, JavaScript"
+          data-link="#" data-code="#">
+          <div class="project-media proj-4"><span class="project-monogram">04</span></div>
+          <div class="project-info">
+            <h3>Rental Website</h3>
+            <p>Website layanan rental kendaraan dengan informasi dan sistem booking.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <div class="project-links">
+              <a href="#" class="project-link" data-project-open>View Project</a>
+              <a href="#" class="project-link ghost">Source Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal-up" data-category="digital"
+          data-title="Real-time Group Chat"
+          data-desc="Konsep website group chat dengan dukungan banyak pengguna."
+          data-features="Chat real-time (konsep)|Dukungan banyak pengguna|Antarmuka sederhana|Struktur mudah dikembangkan"
+          data-tech="HTML, CSS, JavaScript"
+          data-link="#" data-code="#">
+          <div class="project-media proj-5"><span class="project-monogram">05</span></div>
+          <div class="project-info">
+            <h3>Real-time Group Chat</h3>
+            <p>Konsep website group chat dengan dukungan banyak pengguna.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <div class="project-links">
+              <a href="#" class="project-link" data-project-open>View Project</a>
+              <a href="#" class="project-link ghost">Source Code</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECT MODAL ============ -->
+  <div class="project-modal" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-panel">
+      <button class="modal-close" id="modalClose" aria-label="Tutup modal">✕</button>
+      <div class="modal-media" id="modalMedia"><span id="modalMonogram"></span></div>
+      <div class="modal-body">
+        <h3 id="modalTitle"></h3>
+        <p id="modalDesc"></p>
+        <h4>Features</h4>
+        <ul id="modalFeatures"></ul>
+        <h4>Technologies</h4>
+        <p id="modalTech" class="modal-tech"></p>
+        <a href="#" id="modalLink" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View Project</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ PERSONAL BRANDING ============ -->
+  <section class="branding" id="branding">
+    <div class="section-inner">
+      <p class="eyebrow reveal-up center">Beyond The Resume</p>
+      <h2 class="section-title reveal-up center">Portfolio ini bukan hanya tentang pengalaman, tetapi tentang proses belajar, eksplorasi, dan berbagai hal yang sedang dibangun.</h2>
+
+      <div class="branding-grid">
+        <div class="branding-card reveal-up" data-delay="0">
+          <div class="branding-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
+          </div>
+          <h3>Always Learning</h3>
+        </div>
+        <div class="branding-card reveal-up" data-delay="1">
+          <div class="branding-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2l1.8 4.6L18 8l-4.2 1.4L12 14l-1.8-4.6L6 8l4.2-1.4L12 2z"/></svg>
+          </div>
+          <h3>Creative Thinking</h3>
+        </div>
+        <div class="branding-card reveal-up" data-delay="2">
+          <div class="branding-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 6 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-6-3.8-9S9.5 5.7 12 3z"/></svg>
+          </div>
+          <h3>Digital Exploration</h3>
+        </div>
+        <div class="branding-card reveal-up" data-delay="3">
+          <div class="branding-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg>
+          </div>
+          <h3>Continuous Growth</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SOCIAL PRESENCE ============ -->
+  <section class="social-presence" id="social">
+    <div class="section-inner">
+      <p class="eyebrow reveal-up center">Find Me Online</p>
+      <h2 class="section-title reveal-up center">Terhubung Lebih Jauh</h2>
+
+      <div class="social-grid">
+        <a href="https://www.instagram.com/wirak_/" target="_blank" rel="noopener noreferrer" class="social-card reveal-up" data-delay="0">
+          <div class="social-card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1"/></svg>
+          </div>
+          <div>
+            <h3>Instagram</h3>
+            <p>@wirak_</p>
+          </div>
+          <span class="social-arrow">↗</span>
+        </a>
+
+        <a href="https://id.linkedin.com/in/aji-wira-nugroho-730523330" target="_blank" rel="noopener noreferrer" class="social-card reveal-up" data-delay="1">
+          <div class="social-card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="2.5" y="2.5" width="19" height="19" rx="3"/><path d="M7.5 10v7"/><circle cx="7.5" cy="7" r="1"/><path d="M12 17v-4.5c0-1.4 1.1-2.5 2.5-2.5s2.5 1.1 2.5 2.5V17"/><path d="M12 10v.2"/></svg>
+          </div>
+          <div>
+            <h3>LinkedIn</h3>
+            <p>Aji Wira Nugroho</p>
+          </div>
+          <span class="social-arrow">↗</span>
+        </a>
+
+        <a href="mailto:ajiiwra@gmail.com" class="social-card reveal-up" data-delay="2">
+          <div class="social-card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="M3 6.5l9 6 9-6"/></svg>
+          </div>
+          <div>
+            <h3>Email</h3>
+            <p>ajiiwra@gmail.com</p>
+          </div>
+          <span class="social-arrow">↗</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact" id="contact">
+    <div class="section-inner contact-grid">
+      <div class="contact-text reveal-up">
+        <p class="eyebrow">Contact</p>
+        <h2 class="section-title">Let's Build Something Together</h2>
+        <p class="contact-desc">Terbuka untuk peluang, kolaborasi, project digital, maupun koneksi profesional.</p>
+
+        <div class="contact-actions">
+          <a href="mailto:ajiiwra@gmail.com" class="contact-pill">
+            <span>Email Me</span><span>↗</span>
+          </a>
+          <a href="https://id.linkedin.com/in/aji-wira-nugroho-730523330" target="_blank" rel="noopener noreferrer" class="contact-pill">
+            <span>LinkedIn</span><span>↗</span>
+          </a>
+          <a href="https://www.instagram.com/wirak_/" target="_blank" rel="noopener noreferrer" class="contact-pill">
+            <span>Instagram</span><span>↗</span>
+          </a>
+        </div>
+      </div>
+
+      <form class="contact-form reveal-up" id="contactForm" data-delay="1">
+        <div class="form-group">
+          <label for="cf-name">Name</label>
+          <input type="text" id="cf-name" name="name" required autocomplete="name">
+        </div>
+        <div class="form-group">
+          <label for="cf-email">Email</label>
+          <input type="email" id="cf-email" name="email" required autocomplete="email">
+        </div>
+        <div class="form-group">
+          <label for="cf-message">Message</label>
+          <textarea id="cf-message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+        <p class="form-note" id="formNote">Form akan membuka aplikasi email Anda menuju ajiiwra@gmail.com.</p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="section-inner footer-inner">
+    <div class="footer-brand">
+      <p class="footer-name">AJI WIRA NUGROHO</p>
+      <p class="footer-tagline">Creative Mind. Digital Explorer. Future Builder.</p>
+    </div>
+
+    <div class="footer-social">
+      <a href="https://www.instagram.com/wirak_/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">Instagram</a>
+      <a href="https://id.linkedin.com/in/aji-wira-nugroho-730523330" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LinkedIn</a>
+      <a href="mailto:ajiiwra@gmail.com" aria-label="Email">Email</a>
+    </div>
+
+    <button class="back-to-top" id="backToTop" aria-label="Kembali ke atas">
+      Back to top <span>↑</span>
+    </button>
+  </div>
+  <p class="footer-copy">© 2026 Aji Wira Nugroho. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
